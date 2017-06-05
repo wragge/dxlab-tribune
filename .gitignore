@@ -1,3 +1,4 @@
 *.pyc
 negatives
 .DS_Store
+metadata.json

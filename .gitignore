@@ -1,4 +1,5 @@
 *.pyc
-negatives
+negatives/analyse.py
+metadata
 .DS_Store
 metadata.json

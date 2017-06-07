@@ -18,7 +18,7 @@ For convenience I've created a [list of items](negatives/digitised_items.md) wit
 
 As a first step, I've been working at getting metadata relating to the Tribune collection out of the catalogue and into a form I can do something with.
 
-Here's a CSV-formatted list of [all the series](negatives/tribune_series.csv) in the Tribune collection.
+Here's a CSV-formatted list of [all the series](negatives/csv/tribune_series.csv) in the Tribune collection.
 
 In [this folder](negatives/csv) you'll also find CSV-formatted lists of all items in series 1 - 4. For example, here's the items in [Series 1 Part 1](negatives/csv/series-01-part-01-items.csv).
 

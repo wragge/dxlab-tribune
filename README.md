@@ -10,7 +10,21 @@ Here's the [top-level record](http://archival.sl.nsw.gov.au/Details/archive/1100
 * [Tribune negatives including protests against development in Woolloomooloo, and Student Action for Aborigines fundraising folk concert at Paddington Town Hall, Sydney, New South Wales, 1965](http://archival.sl.nsw.gov.au/Details/archive/110370048)
 * [Tribune negatives including the Freedom Rides SAFA (Student Action For Aboriginals) Trip 17- 26 February, 1965](http://archival.sl.nsw.gov.au/Details/archive/110366670)
 
-To find all the digitised items go to the [Advanced Search](http://archival.sl.nsw.gov.au/search/advanced) page, search for title keywords "Tribune negatives", and check the "digital content" box.
+To find all the digitised items you can go to the [Advanced Search](http://archival.sl.nsw.gov.au/search/advanced) page, search for title keywords "Tribune negatives", and check the "digital content" box.
+
+For convenience I've created a [list of items](negatives/digitised_items.md) with digitised images available.
+
+### Metadata
+
+As a first step, I've been working at getting metadata relating to the Tribune collection out of the catalogue and into a form I can do something with.
+
+Here's a CSV-formatted list of [all the series](tribune_series.csv) in the Tribune collection.
+
+In [this folder](negatives/csv) you'll also find CSV-formatted lists of all items in series 1 - 4. For example, here's the items in [Series 1 Part 1](negatives/csv/series-01-part-01-items.csv).
+
+### Word frequencies
+
+I've started some preliminary playing around with the [frequencies of words and phrases](negatives/title_word_frequencies.md) in item titles.
 
 ### Related resources
 

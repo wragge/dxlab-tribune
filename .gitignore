@@ -3,3 +3,5 @@ negatives/analyse.py
 metadata
 .DS_Store
 metadata.json
+credentials.py
+negatives/images

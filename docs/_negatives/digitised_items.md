@@ -1,4 +1,7 @@
-# Tribune negatives -- currently digitised and online
+---
+title: Currently digitised and online
+layout: page
+---
 
 * [Item 086: Tribune negatives including Bill White, anti-conscription demonstration and draft card burning, Sydney, New South Wales, 1966](http://archival.sl.nsw.gov.au/Details/archive/110366555) (36 images)
 * [Item 032: Tribune negatives of anti-Vietnam War demonstrations, including Australia's first sit down demonstration, Sydney, and a protest outside Central Police Court, Liverpool Street, Sydney, New South Wales, 1965](http://archival.sl.nsw.gov.au/Details/archive/110366605) (37 images)

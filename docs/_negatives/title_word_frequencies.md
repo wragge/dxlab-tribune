@@ -1,4 +1,7 @@
-# Word frequencies in titles
+---
+title: Word frequencies in titles
+layout: page
+---
 
 This is just a first and somewhat kludgey attempt to look at frequencies in the titles of items in the Tribune collection.
 

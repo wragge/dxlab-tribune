@@ -22,3 +22,4 @@ I've started some preliminary playing around with the [frequencies of words and 
 * [Subject frequencies](negatives/subjects/)
 * [Topic frequencies](negatives/topics/)
 * [People &amp; organisation frequencies](negatives/people/)
+* [Places](negatives/places/)

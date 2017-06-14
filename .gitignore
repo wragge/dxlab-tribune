@@ -5,3 +5,5 @@ metadata
 metadata.json
 credentials.py
 negatives/images
+negatives/faces
+negatives/extract_faces.py

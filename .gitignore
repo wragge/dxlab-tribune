@@ -1,5 +1,5 @@
 *.pyc
-negatives/analyse.py
+negatives/harvest.py
 metadata
 .DS_Store
 metadata.json
@@ -7,3 +7,5 @@ credentials.py
 negatives/images
 negatives/faces
 negatives/extract_faces.py
+reasonrevolt
+negatives/csv/*places.csv

@@ -56,7 +56,7 @@ def write_items_csv(series_number='01'):
         part_number = part['part_number']
         with open(os.path.join('csv', 'series-{}-part-{}-items.csv'.format(series_number, part_number)), 'wb') as csv_file:
             writer = csv.writer(csv_file)
-            writer.writerow(['series_number', 'part_number', 'item_number', 'level', 'title', 'call_number', 'object_number', 'priref', 'date_string', 'date_start', 'date_end', 'quantity', 'url', 'parent_url', 'number_images', 'images', 'description', 'subjects', 'topics', 'people', 'places'])
+            writer.writerow(['series_number', 'part_number', 'item_number', 'level', 'title', 'call_number', 'object_number', 'priref', 'intellectual_entity', 'date_string', 'date_start', 'date_end', 'quantity', 'url', 'parent_url', 'number_images', 'images', 'description', 'subjects', 'topics', 'people', 'places'])
             for item in db.items.find({'parent_number': series_number, 'parent_part': part_number}):
                 print item['title']
                 writer.writerow([
@@ -68,6 +68,7 @@ def write_items_csv(series_number='01'):
                     item['call_number'],
                     item['object_number'],
                     item['priref'],
+                    item['intellectual_entity'],
                     item['date_string'],
                     item['date_start'],
                     item['date_end'],
@@ -89,7 +90,7 @@ def write_all_items_csv():
     db = dbclient.get_default_database()
     with open(os.path.join('csv', 'all_items.csv'), 'wb') as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow(['series_number', 'part_number', 'item_number', 'level', 'title', 'call_number', 'object_number', 'priref', 'date_string', 'date_start', 'date_end', 'quantity', 'url', 'parent_url', 'number_images', 'images', 'description', 'subjects', 'topics', 'people', 'places'])
+        writer.writerow(['series_number', 'part_number', 'item_number', 'level', 'title', 'call_number', 'object_number', 'priref', 'intellectual_entity', 'date_string', 'date_start', 'date_end', 'quantity', 'url', 'parent_url', 'number_images', 'images', 'description', 'subjects', 'topics', 'people', 'places'])
         for series_number in ['01', '02', '03', '04']:
             for part in db.series.find({'series_number': series_number}).sort('part_number', 1):
                 part_number = part['part_number']
@@ -104,6 +105,7 @@ def write_all_items_csv():
                         item['call_number'],
                         item['object_number'],
                         item['priref'],
+                        item['intellectual_entity'],
                         item['date_string'],
                         item['date_start'],
                         item['date_end'],
